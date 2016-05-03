@@ -7,8 +7,8 @@
 //
 
 #import "IBHomeViewController.h"
-
-@interface IBHomeViewController ()
+#import "TableViewCell.h"
+@interface IBHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
 
@@ -22,6 +22,38 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+
+    return 1;
+
+}
+
+-(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+
+    return 1;
+    
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    static NSString *cid = @"cid";
+    TableViewCell *cell ;
+    cell = [tableView dequeueReusableCellWithIdentifier:cid];
+    if (cell==nil) {
+        
+        
+         cell= [[[NSBundle mainBundle]loadNibNamed:@"TableViewCell" owner:nil options:nil] firstObject];
+        //cell = [[TableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cid];
+        
+    }
+   return cell;
+}
+
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 200;
 }
 
 /*
