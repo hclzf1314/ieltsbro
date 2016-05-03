@@ -1,14 +1,14 @@
 //
-//  TableViewCell.m
+//  IBHomeTableViewCell.m
 //  ieltsbro
 //
 //  Created by Simon on 16/5/3.
 //  Copyright © 2016年 irest. All rights reserved.
 //
 
-#import "TableViewCell.h"
+#import "IBHomeTableViewCell.h"
 
-@implementation TableViewCell
+@implementation IBHomeTableViewCell
 
 - (void)awakeFromNib {
     // Initialization code

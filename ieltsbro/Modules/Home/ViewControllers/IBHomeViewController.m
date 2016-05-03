@@ -7,7 +7,7 @@
 //
 
 #import "IBHomeViewController.h"
-#import "TableViewCell.h"
+#import "IBHomeTableViewCell.h"
 @interface IBHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @end
@@ -39,12 +39,12 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
 
     static NSString *cid = @"cid";
-    TableViewCell *cell ;
+    IBHomeTableViewCell *cell ;
     cell = [tableView dequeueReusableCellWithIdentifier:cid];
     if (cell==nil) {
         
         
-         cell= [[[NSBundle mainBundle]loadNibNamed:@"TableViewCell" owner:nil options:nil] firstObject];
+         cell= [[[NSBundle mainBundle]loadNibNamed:@"IBHome q1TableViewCell" owner:nil options:nil] firstObject];
         //cell = [[TableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cid];
         
     }

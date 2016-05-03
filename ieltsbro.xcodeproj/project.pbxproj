@@ -19,12 +19,10 @@
 		EF209E3E1CD6340C00838F59 /* IBBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF209E3D1CD6340C00838F59 /* IBBaseNavigationController.m */; };
 		EF209E411CD6342700838F59 /* IBBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF209E401CD6342700838F59 /* IBBaseTableViewController.m */; };
 		EF209E441CD634BD00838F59 /* IBBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF209E431CD634BD00838F59 /* IBBaseModel.m */; };
-		F4CF47611CD8BF03003A7A21 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF475F1CD8BF03003A7A21 /* TableViewCell.m */; };
-		F4CF47621CD8BF03003A7A21 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4CF47601CD8BF03003A7A21 /* TableViewCell.xib */; };
 		F4CF47651CD8C4B0003A7A21 /* IBListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF47641CD8C4B0003A7A21 /* IBListTableViewController.m */; };
 		F4CF47681CD8C5F4003A7A21 /* RecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF47671CD8C5F4003A7A21 /* RecordTableViewController.m */; };
-		F4E1047D1CD7AA2A0090A3B2 /* 41.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E1047C1CD7AA2A0090A3B2 /* 41.png */; };
-		F4E1047F1CD7AA450090A3B2 /* 51.png in Resources */ = {isa = PBXBuildFile; fileRef = F4E1047E1CD7AA450090A3B2 /* 51.png */; };
+		F4CF476C1CD8C92C003A7A21 /* IBHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CF476A1CD8C92C003A7A21 /* IBHomeTableViewCell.m */; };
+		F4CF476D1CD8C92C003A7A21 /* IBHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4CF476B1CD8C92C003A7A21 /* IBHomeTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,15 +50,13 @@
 		EF209E401CD6342700838F59 /* IBBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBBaseTableViewController.m; sourceTree = "<group>"; };
 		EF209E421CD634BD00838F59 /* IBBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBBaseModel.h; sourceTree = "<group>"; };
 		EF209E431CD634BD00838F59 /* IBBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBBaseModel.m; sourceTree = "<group>"; };
-		F4CF475E1CD8BF03003A7A21 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		F4CF475F1CD8BF03003A7A21 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
-		F4CF47601CD8BF03003A7A21 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		F4CF47631CD8C4B0003A7A21 /* IBListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBListTableViewController.h; sourceTree = "<group>"; };
 		F4CF47641CD8C4B0003A7A21 /* IBListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBListTableViewController.m; sourceTree = "<group>"; };
 		F4CF47661CD8C5F4003A7A21 /* RecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordTableViewController.h; sourceTree = "<group>"; };
 		F4CF47671CD8C5F4003A7A21 /* RecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordTableViewController.m; sourceTree = "<group>"; };
-		F4E1047C1CD7AA2A0090A3B2 /* 41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 41.png; sourceTree = "<group>"; };
-		F4E1047E1CD7AA450090A3B2 /* 51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 51.png; sourceTree = "<group>"; };
+		F4CF47691CD8C92C003A7A21 /* IBHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBHomeTableViewCell.h; sourceTree = "<group>"; };
+		F4CF476A1CD8C92C003A7A21 /* IBHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBHomeTableViewCell.m; sourceTree = "<group>"; };
+		F4CF476B1CD8C92C003A7A21 /* IBHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IBHomeTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,8 +118,6 @@
 				EF209E1D1CD62F8100838F59 /* Resources */,
 				EF209E2F1CD6309200838F59 /* IBMain.storyboard */,
 				EF209E1E1CD62F8100838F59 /* Assets.xcassets */,
-				F4E1047C1CD7AA2A0090A3B2 /* 41.png */,
-				F4E1047E1CD7AA450090A3B2 /* 51.png */,
 			);
 			path = ieltsbro;
 			sourceTree = "<group>";
@@ -177,9 +171,9 @@
 		EF209E0E1CD62F8100838F59 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				F4CF475E1CD8BF03003A7A21 /* TableViewCell.h */,
-				F4CF475F1CD8BF03003A7A21 /* TableViewCell.m */,
-				F4CF47601CD8BF03003A7A21 /* TableViewCell.xib */,
+				F4CF47691CD8C92C003A7A21 /* IBHomeTableViewCell.h */,
+				F4CF476A1CD8C92C003A7A21 /* IBHomeTableViewCell.m */,
+				F4CF476B1CD8C92C003A7A21 /* IBHomeTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -406,11 +400,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4E1047D1CD7AA2A0090A3B2 /* 41.png in Resources */,
-				F4E1047F1CD7AA450090A3B2 /* 51.png in Resources */,
-				F4CF47621CD8BF03003A7A21 /* TableViewCell.xib in Resources */,
 				EF209E301CD6309200838F59 /* IBMain.storyboard in Resources */,
 				EF209E2C1CD62F8200838F59 /* Info.plist in Resources */,
+				F4CF476D1CD8C92C003A7A21 /* IBHomeTableViewCell.xib in Resources */,
 				EF209E291CD62F8200838F59 /* Assets.xcassets in Resources */,
 				EF209E2A1CD62F8200838F59 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -478,9 +470,9 @@
 				EF209E2D1CD62F8200838F59 /* main.m in Sources */,
 				F4CF47651CD8C4B0003A7A21 /* IBListTableViewController.m in Sources */,
 				F4CF47681CD8C5F4003A7A21 /* RecordTableViewController.m in Sources */,
-				F4CF47611CD8BF03003A7A21 /* TableViewCell.m in Sources */,
 				EF209E261CD62F8100838F59 /* AppDelegate.m in Sources */,
 				EF209E3E1CD6340C00838F59 /* IBBaseNavigationController.m in Sources */,
+				F4CF476C1CD8C92C003A7A21 /* IBHomeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -108,7 +108,7 @@
         <scene sceneID="zti-in-KnN">
             <objects>
                 <navigationController id="tvv-ak-DCY" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="录音" image="51.png" id="FsR-s8-ZhW"/>
+                    <tabBarItem key="tabBarItem" title="录音" image="icon_tabbar_voice_normal" id="FsR-s8-ZhW"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mly-bj-fN1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -197,9 +197,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="51.png" width="33" height="32"/>
         <image name="icon_tabbar_list_normal" width="16" height="16"/>
         <image name="icon_tabbar_mine_normal" width="26" height="26"/>
         <image name="icon_tabbar_shouye_normal" width="26" height="26"/>
+        <image name="icon_tabbar_voice_normal" width="16" height="16"/>
     </resources>
 </document>

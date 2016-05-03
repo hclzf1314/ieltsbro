@@ -1,7 +1,18 @@
 # ieltsbro
 精仿雅思哥App
 
-### 目录结构说明
+## Getting started
+
+iOS Verison 8.0+
+
+```
+> git clone https://github.com/hclzf1314/ieltsbro.git
+> cd ieltsbro
+> cocospod install
+> open ieltsbro.xcworkspace
+```
+
+## Structure Descriptions
 
 1. 如果使用的第三方库不需要修改源文件，就放到 Podfile 里面，用 cocoapods 进行自动管理。
 2. Library 目录下存放其他需要修改源代码的第三方库。
@@ -12,7 +23,22 @@
 7. 所有的图片资源都存放到 Assets 下。
 8. 和界面展示的相关类，必须全部使用 AutoLayout。
 
-### 代码规范说明
+## Todo list
+
+- [ ] 首页，展示烤鸭们实时发送的消息
+- [ ] 高频清单，展示 Part1-3 各个 Seesion 出现的频率及相关内容
+- [ ] 课程录音，一些名师上课的视频[跳去Web]
+- [ ] 账号，帐号管理
+
+## Coding Style
 
 1. 我们所有新增的类都以 IB 作为前缀。
 2. Objective-c 的相关 Coding Style 可以参考[这里](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html#//apple_ref/doc/uid/10000146-SW1)。
+
+## Encourage
+
+Hi, guys! 如果喜欢或者要收藏，欢迎star。如果要提供意见和bug，欢迎issue或提交pr。
+
+## License
+
+MIT
