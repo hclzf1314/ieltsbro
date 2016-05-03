@@ -1,9 +1,16 @@
-# ieltsbro
-精仿雅思哥App
+#![](http://7xrn7f.com1.z0.glb.clouddn.com/16-5-3/34235872.jpg) IeltsBro
+
+<img src="https://img.shields.io/travis/rust-lang/rust.svg">
+<img src="https://img.shields.io/badge/platform-iOS%208.0%2B-ff69b4.svg">
+<img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat">
+
+## Introduction
+
+美化雅思哥App，主要在UI上进行美化，希望能让提升用户体验(非官方)。
 
 ## Getting started
 
-iOS Verison 8.0+
+iOS Version 8.0+
 
 ```
 > git clone https://github.com/hclzf1314/ieltsbro.git
