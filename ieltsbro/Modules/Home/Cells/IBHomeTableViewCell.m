@@ -10,6 +10,7 @@
 
 @implementation IBHomeTableViewCell
 
+
 - (void)awakeFromNib {
     // Initialization code
 }

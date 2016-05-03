@@ -14,9 +14,13 @@
 
 @implementation IBHomeViewController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+   
+ 
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,7 +36,7 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
 
-    return 1;
+    return 3;
     
 }
 
@@ -44,7 +48,7 @@
     if (cell==nil) {
         
         
-         cell= [[[NSBundle mainBundle]loadNibNamed:@"IBHome q1TableViewCell" owner:nil options:nil] firstObject];
+         cell= [[[NSBundle mainBundle]loadNibNamed:@"IBHomeTableViewCell" owner:nil options:nil] firstObject];
         //cell = [[TableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cid];
         
     }
@@ -52,9 +56,7 @@
 }
 
 
-- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 200;
-}
+
 
 /*
 #pragma mark - Navigation
