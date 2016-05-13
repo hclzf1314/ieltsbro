@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.title=@"首页";
    
  
 }
@@ -50,8 +51,10 @@
         
          cell= [[[NSBundle mainBundle]loadNibNamed:@"IBHomeTableViewCell" owner:nil options:nil] firstObject];
         //cell = [[TableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cid];
+        cell.selectionStyle = UITableViewCellSelectionStyleGray;
         
     }
+    
    return cell;
 }
 

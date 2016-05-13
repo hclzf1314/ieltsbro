@@ -151,7 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				EF209E0D1CD62F8100838F59 /* Home */,
-				EF209E111CD62F8100838F59 /* List */,
+				EF209E111CD62F8100838F59 /* Video */,
 				EF209E151CD62F8100838F59 /* Record */,
 				EF209E191CD62F8100838F59 /* User */,
 			);
@@ -194,13 +194,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		EF209E111CD62F8100838F59 /* List */ = {
+		EF209E111CD62F8100838F59 /* Video */ = {
 			isa = PBXGroup;
 			children = (
 				EF209E121CD62F8100838F59 /* Cells */,
 				EF209E131CD62F8100838F59 /* ViewControllers */,
 				EF209E141CD62F8100838F59 /* Views */,
 			);
+			name = Video;
 			path = List;
 			sourceTree = "<group>";
 		};
